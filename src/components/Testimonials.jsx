@@ -13,7 +13,7 @@ const testimonials = [
     author: "#EndSARS Protester",
     position: "top-1/3 right-1/4",
     delay: 0.3,
-  },``
+  },
   {
     quote: "The power of the people is stronger than the people in power.",
     author: "June 12 Activist",
