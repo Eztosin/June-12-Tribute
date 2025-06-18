@@ -2,10 +2,13 @@
   "name": "june12-tribute",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Eztosin.github.io/June-12-Tribute.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -25,6 +28,7 @@
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.5",
